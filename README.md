@@ -1,7 +1,6 @@
 # Autofit-CSV
 ## A small Excel add-in to make CSV files human-readable upon opening
----
-##
+
 The add-in currently performs: 
 - Adds wrap-text to header row (first row), so auto-sizing is only fit to the subsequent data rows.
 - Auto-Resizes columns from the first row to the first completely empty row in the file (to avoid auto-sizing based on unrelated file info tables present at the bottom of certain files)
@@ -9,7 +8,6 @@ The add-in currently performs:
 - Unless manual adjustments are made, there is no save-as prompt for the format modifications performed by the add-in (which cannot be saved in a csv file anyways)
   
 *Confirmed Excel Version compatibility: **Excel 365 (Windows 10)**
-
 ---
 ## Install Instructions (Windows only)
 #### Script-based install
@@ -28,7 +26,9 @@ The add-in currently performs:
 ### Upcoming Features
 - Disable prompt to saving on any format modifications that will not be saved anyways
 - Freeze header row (first row) so that remains present while scrolling
-- Add a tab or box section to toggle autofitting and header row freezing
+- Add a tab or box section to toggle autofitting and header row freezing  
+#### Features to be added even later
+- Add a checkbox to disable/enable save prompt disabling upon meaningless format changes
 - Test for machine's OS and implement appropriate OS compatible functions (to work on mac)
 - Test older versions of excel
 - Add a textbox section allowing min and max widths after the autosize to be set and saved for use in all subsequent csv files
